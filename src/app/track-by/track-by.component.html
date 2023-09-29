@@ -1,0 +1,8 @@
+<div class="container">
+    <button class="btn btn-success" (click)="refreshList()">Refresh list</button>
+
+    <div class="list">
+        <div class="list-item" *ngFor="let user of users; trackBy: trackUser">
+            {{user.name}}</div>
+    </div>
+</div>

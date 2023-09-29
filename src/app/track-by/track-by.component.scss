@@ -1,0 +1,22 @@
+.container,
+.list-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    button {
+        margin: 15px;
+    }
+
+    .list {
+        font-size: 20px;
+    }
+}
+
+.container {
+    background: rgb(192, 192, 228);
+    padding: 20px;
+    margin: 30px;
+    border-radius: 10px;
+}

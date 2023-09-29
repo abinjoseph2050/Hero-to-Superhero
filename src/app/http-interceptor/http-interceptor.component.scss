@@ -1,0 +1,11 @@
+.btn-container {
+    background: rgb(219, 240, 188);
+    margin: 30px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+
+    button {
+        margin: 20px;
+    }
+}

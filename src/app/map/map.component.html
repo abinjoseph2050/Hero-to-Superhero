@@ -1,0 +1,9 @@
+<input type="text" [(ngModel)]="username" class="form-control">
+<p *ngIf="isClick; else theElse">The Username is {{username}}</p>
+<ng-template #theElse>No Users</ng-template>
+<!-- <button class="btn btn-primary" [disabled]="username == ''" (click)="username = ''">Reset Username</button> -->
+<button class="btn btn-primary" [disabled]="username == ''" (click)="reset()">Reset Username</button>
+
+<!-- Color -->
+<p [ngStyle]="{padding:'20px', backgroundColor : getColor()}" [ngClass]="{pbg : serverStatus === 'Online'}">Server
+    Status is {{serverStatus}}</p>
